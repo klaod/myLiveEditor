@@ -1,0 +1,15 @@
+<head>
+  <title>LiveEditor</title>
+</head>
+
+<body>
+
+  <h1>Live text editing</h1>
+
+  {{> editor}}
+
+</body>
+
+<template name="editor">
+      {{> sharejsAce docid=docid onRender=config id="editor"}}
+</template>
